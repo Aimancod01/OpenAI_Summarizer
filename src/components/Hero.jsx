@@ -6,7 +6,9 @@ function Hero() {
       <nav className="flex justify-between items-center w-full mb-10 pt-3">
         <img src={logo} alt="" className="w-28 object-contain" />
         <button
-          onClick={() => window.open("https://github.com")}
+          onClick={() =>
+            window.open("https://github.com/Aimancod01/OpenAI_Summarizer.git")
+          }
           className="black_btn"
         >
           Github
